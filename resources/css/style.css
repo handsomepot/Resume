@@ -38,7 +38,7 @@ header{
 }
 
 nav {
-    background-color: #01371c;
+    background-color: #1b0b3c;
     height: 90px;
 }
 
@@ -572,7 +572,7 @@ h3 {
 }
 
 .sec-contact {
-    background-color: black;
+    background-color: #130a26;
 }
 
 
@@ -586,7 +586,7 @@ h3 {
 }
 
 .foot {
-    background-color: black;
+    background-color: #130a26;
 }
 
 
@@ -611,7 +611,8 @@ h3 {
     content: " ";
     width: 100px;
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 
 }
 
