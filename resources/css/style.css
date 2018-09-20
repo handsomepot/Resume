@@ -16,9 +16,8 @@ html{
     font-weight: 300;
     text-rendering: optimizeLegibility;
 
-
-
 }
+
 
 .row{
     max-width: 1140px;
@@ -118,7 +117,7 @@ h1{
 
 
 .icon-big {
-    font-size: 75px;
+    font-size: 55px;
     #letter-spacing: 10px;
     color: #4A148C;
     #color: blue;
@@ -146,7 +145,8 @@ h1{
 
 
 h3 {
-    margin-bottom: 20px;
+    margin-top: 0px;
+    margin-bottom: 2px;
 }
 
 .div-skill {
@@ -157,10 +157,12 @@ h3 {
     align-content: center;
 }
 
-
+.box2 p{
+    margin-top: 10px;
+}
 
 .box2 {
-    margin-top: 50px;
+    margin-top: 40px;
     padding: 1%;
     background-color: white;
     border:#4A148C 2px solid; 
@@ -203,9 +205,7 @@ h3 {
   
 }
 
-.orange {
-    color: #f4a220;
-}
+
 
 .page-scale {
     transition: all 0.5s ease-out;
@@ -337,10 +337,16 @@ h3 {
 .content {
     color: white;
     margin-top: 0px;
-    margin-left: 50px;
+    margin-left: 20px;
     text-align: left;
 }
 
+.content p{
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: left;
+}
 .h2-skill {
     
 }
@@ -633,4 +639,43 @@ h3 {
     margin-top: 0px;
     margin-left: 20px;
     text-align: left;
+}
+
+
+
+.wrapper {
+    padding-left: 50px;
+}
+			
+.progress-bar {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 25px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, .2);
+}
+.progress-bar-text {
+    width: 100%;
+    
+}
+
+
+.progress-bar-fill {
+    display: block;
+    height: 15px;
+    background-color: #FF6F00;
+    border-radius: 25px;
+    line-height:10px;
+    #transition: width 500ms ease-in-out;
+}
+
+.progress-bar-fill-text {
+
+ display: block;
+    height: 15px;
+    line-height:10px;
+}
+
+
+.skill-set {
+    margin-bottom: 20px;
 }
