@@ -49,6 +49,10 @@
         font-size: 100px;
     }
     
+    .contact-form {
+         width: 80%;
+    }
+    
 }
 
 /*small phones to small tablets: from 481px to 767px*/
@@ -80,4 +84,7 @@
         height: 250px;
     }
   
+}
+.contact-form {
+    
 }
